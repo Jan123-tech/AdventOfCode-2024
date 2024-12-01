@@ -7,6 +7,7 @@
     (let ((contents (make-string (file-length stream))))
       (read-sequence contents stream) contents)))
 
+; manually removed two spaces from the delimiter
 (defparameter *file-contents* (read-file "aoc1.csv"))
 
 (defparameter *lines* (split-sequence:split-sequence #\Newline *file-contents*))
