@@ -18,10 +18,21 @@
 
 (defparameter *pairs* (mapcar #'split-line-to-pair *lines*))
 
-(defparameter *items0* (sort (mapcar #'first *pairs*) #'<))
-(defparameter *items1* (sort (mapcar #'rest *pairs*) #'<))
-(defparameter *items2* (mapcar #'cons *items0* *items1*))
-(defparameter *items3* (mapcar (lambda (pair) (abs (- (first pair) (rest pair)))) *items2*))
+(defparameter *items0* (mapcar #'first *pairs*))
+(defparameter *items1* (mapcar #'rest *pairs*))
+(defparameter *items2* (remove-if-not (lambda (item) (member item *items0*)) *items1*))
+
+(defparameter *counts*
+  (let ((counts (make-hash-table)))
+    (dolist (item *items2*)
+      (incf (gethash item counts 0)))
+    counts))
+
+(defparameter *items3*
+  (let ((products '()))
+    (maphash (lambda (key value) (push (* key value) products)) *counts*)
+    products))
+
 (defparameter *sum* (reduce #'+ *items3*))
 
 (format t "~A~%" *sum*)
