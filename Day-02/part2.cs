@@ -8,11 +8,12 @@
 			.Select(x => (x.Take(x.Count() - 1), x.Skip(1)))
 			.Select(x => x.Item1.Zip(x.Item2))
 			.Select(x => x.Select(y => y.Second - y.First))
-			.Select(x => x.Select(y => (diff: y, absDiff: Math.Abs(y))));
+			.Select(x => x.Select(diff => (diff, absDiff: Math.Abs(diff))));
 	});
 
 var valid = items.Where(items0 => items0.Where(x =>
 	x.All(y => y.absDiff > 0 && y.absDiff <= 3) &&
-		(x.All(y => y.diff < 0) || x.All(y => y.diff > 0))).Any());
+		(x.All(y => y.diff < 0) || x.All(y => y.diff > 0)))
+			.Any());
 
 Console.WriteLine(valid.Count());
