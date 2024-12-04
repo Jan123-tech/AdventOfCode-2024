@@ -1,7 +1,9 @@
-﻿var items = File.ReadAllLines("data.txt")
+﻿var part2 = true;
+
+var items = File.ReadAllLines("data.txt")
 	.Select(x => x.Split(" "))
 	.Select(x => x.Select(y => int.Parse(y)))
-	.Select(x => x.Select ((_, i) => x.Where((_, j) => j != i)))
+	.Select(x => part2 ? x.Select ((_, i) => x.Where((_, j) => j != i)) : [x])
 	.Select(items => 
 	{
 		return items
