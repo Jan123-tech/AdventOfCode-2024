@@ -52,6 +52,18 @@
                  (format t "Key: ~a, Value is not a hash table: ~a~%" key value)))
            hash-table))
 
+(defun custom-order-p (a b)
+  (let ((dicta (gethash a *dict*)))
+    (if (and dicta (gethash b dicta))
+        t
+        (let ((dictb (gethash b *dict*)))
+            (if (and dictb (gethash a dictb))
+                nil
+                t)))))
+
+(defun sort-by-custom-order (list)
+  (sort (copy-seq list) #'custom-order-p))
+
 (defparameter *file-contents* (read-file "data.txt"))
 (defparameter *lines* (split-sequence:split-sequence #\Newline *file-contents*))
 (defparameter *integer-pairs* (split-to-integer-pairs *lines*))
@@ -61,7 +73,8 @@
 (defparameter *lines2* (split-sequence:split-sequence #\Newline *file-contents2*))
 (defparameter *items* (parse-integer-lists *lines2*))
 
-(defparameter *valid* (remove-if-not (lambda (item) (validate (first item) (rest item))) *items*))
-(defparameter *sum* (reduce #'+ (mapcar (lambda (item) (nth (/ (- (length item) 1) 2) item)) *valid*)))
+(defparameter *invalid* (remove-if (lambda (item) (validate (first item) (rest item))) *items*))
+(defparameter *sorted-invalid* (mapcar #'sort-by-custom-order *invalid*))
+(defparameter *sum* (reduce #'+ (mapcar (lambda (item) (nth (/ (- (length item) 1) 2) item)) *sorted-invalid*)))
 
 (format t "~a~%" *sum*)
