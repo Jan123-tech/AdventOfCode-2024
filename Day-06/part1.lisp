@@ -50,6 +50,7 @@
 (defparameter *lines* (split-sequence:split-sequence #\Newline *file-contents*))
 (defparameter *grid* (mapcar #'string-to-string-list *lines*))
 
-(defparameter *path* (move (find-start *grid*) 0 (list))))
+(let ((start (find-start *grid*) ))
+  (defparameter *path* (move start 0 (list start))))
 
 (format t "~a~%" (length (remove-duplicates *path* :test #'equal)))
