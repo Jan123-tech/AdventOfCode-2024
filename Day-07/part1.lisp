@@ -7,9 +7,6 @@
     (let ((contents (make-string (file-length stream))))
       (read-sequence contents stream) contents)))
 
-(defun string-to-string-list (str)
-  (mapcar #'string (coerce str 'list)))
-
 (defun split-line-to-pair (line)
   (let ((parts (split-sequence:split-sequence #\: line)))
     (cons (parse-integer (first parts)) (string-to-number-list (second parts)))))
