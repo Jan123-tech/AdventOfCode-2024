@@ -61,6 +61,8 @@
     (compare-char-number (lookup-point point *grid*) (1+ num))) points))
 
 (defun increment-path (point visited)
+  (unless (and (not *part2*) (gethash point visited))
+    (list)
     (let ((c (lookup-point point *grid*)))
       (setf (gethash point visited) t)
       (if (compare-char-number c 9)
@@ -68,8 +70,9 @@
         (let ((newPoints (remove-not-up (get-new-points point) c)))
           (if (= (length newPoints) 0)
             (list)
-            (remove nil (mapcan (lambda (p) (increment-path p visited)) newPoints)))))))
+            (remove nil (mapcan (lambda (p) (increment-path p visited)) newPoints))))))))
 
+(defparameter *part2* t)
 (defparameter *file-contents* (read-file "data.txt"))
 (defparameter *lines* (split-sequence:split-sequence #\Newline *file-contents*))
 (defparameter *grid* (mapcar #'split-string-characters *lines*))
