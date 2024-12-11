@@ -34,41 +34,27 @@
 (defun get-future-value (key)
   (gethash key *futures-values* nil))
 
-(defmacro define-iterate (func-name recursive-func)
-  `(defun ,func-name (num height)
-     (let ((newNums (transform num)))
-       (let ((result (if (= height 1)
-                         (length newNums)
-                         (reduce #'+ (remove nil (mapcar (lambda (n)
-                                                          (,recursive-func n (1- height)))
-                                                        newNums))))))
-         (store-future-value (list num height) result)
-         result))))
+(defun iterate (num height)
+  (let ((newNums (transform num)))
+    (let ((result (if (= height 1)
+                      (length newNums)
+                      (reduce #'+ (remove nil (mapcar (lambda (n)
+                                                       (iterate-cached n (1- height)))
+                                                     newNums))))))
+      (store-future-value (list num height) result)
+      result)))
 
 (defun iterate-cached (num height)
- (if (<= height *cacheHeight*)
-    (progn
-      (let ((cachedValue (get-future-value (list num height))))
-        (if cachedValue
-          cachedValue
-          (iterate-inner-cached num height))))
-      (progn
-        (iterate-inner-cached num height)
-      )))
-
-(define-iterate iterate iterate)
-(define-iterate iterate-inner-cached iterate-cached)
+  (let ((cachedValue (get-future-value (list num height))))
+    (if cachedValue
+      cachedValue
+      (iterate num height))))
 
 (defparameter *file-contents* (read-file "data.txt"))
 (defparameter *numbers* (split-string-into-integers *file-contents*))
-(defparameter *cacheHeight* 40)
+(defparameter *futures-values* (make-hash-table :test 'equal))
 
-(time (progn
-
-  (defparameter *futures-values* (make-hash-table :test 'equal))
-  (dolist (num *numbers*) (iterate num *cacheHeight*))
-  (format t "Cache Count: ~A~%" (hash-table-count *futures-values*))
-
-  (defparameter *mainSum* (reduce #'+ (mapcar (lambda (n) (iterate-cached n 75)) *numbers*)))
-
-  (format t "Count: ~A~%" (+ *mainSum*))))
+(time
+  (defparameter *mainSum* (reduce #'+ (mapcar (lambda (n) (iterate-cached n 75)) *numbers*))))
+  
+(format t "Count: ~A~%" (+ *mainSum*))
