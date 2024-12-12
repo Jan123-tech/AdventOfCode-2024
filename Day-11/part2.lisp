@@ -28,24 +28,18 @@
         split
         (list (* num 2024))))))
 
-(defun store-future-value (key value)
-  (setf (gethash key *futures-values*) value))
-
-(defun get-future-value (key)
-  (gethash key *futures-values* nil))
-
 (defun iterate (num height)
   (let ((newNums (transform num)))
     (let ((result (if (= height 1)
                       (length newNums)
-                      (reduce #'+ (remove nil (mapcar (lambda (n)
-                                                       (iterate-cached n (1- height)))
-                                                     newNums))))))
-      (store-future-value (list num height) result)
+                      (reduce #'+ (mapcar (lambda (n)
+                                            (iterate-cached n (1- height)))
+                                              newNums)))))
+      (setf (gethash (list num height) *futures-values*) result)
       result)))
 
 (defun iterate-cached (num height)
-  (let ((cachedValue (get-future-value (list num height))))
+  (let ((cachedValue (gethash (list num height) *futures-values* nil)))
     (if cachedValue
       cachedValue
       (iterate num height))))
