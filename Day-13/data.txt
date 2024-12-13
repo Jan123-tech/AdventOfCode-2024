@@ -1,1279 +1,320 @@
-Button A: X+27, Y+18
-Button B: X+17, Y+44
-Prize: X=8105, Y=9698
-
-Button A: X+12, Y+64
-Button B: X+71, Y+42
-Prize: X=3104, Y=3088
-
-Button A: X+73, Y+35
-Button B: X+24, Y+71
-Prize: X=7324, Y=7914
-
-Button A: X+25, Y+53
-Button B: X+62, Y+37
-Prize: X=19587, Y=15892
-
-Button A: X+71, Y+18
-Button B: X+23, Y+71
-Prize: X=7286, Y=4520
-
-Button A: X+21, Y+52
-Button B: X+55, Y+16
-Prize: X=395, Y=11424
-
-Button A: X+79, Y+33
-Button B: X+22, Y+56
-Prize: X=3969, Y=2875
-
-Button A: X+33, Y+58
-Button B: X+37, Y+15
-Prize: X=11569, Y=16673
-
-Button A: X+17, Y+59
-Button B: X+76, Y+30
-Prize: X=8790, Y=9300
-
-Button A: X+94, Y+20
-Button B: X+57, Y+71
-Prize: X=14573, Y=8929
-
-Button A: X+53, Y+25
-Button B: X+13, Y+33
-Prize: X=12977, Y=2517
-
-Button A: X+60, Y+27
-Button B: X+54, Y+84
-Prize: X=4044, Y=2178
-
-Button A: X+19, Y+38
-Button B: X+65, Y+32
-Prize: X=16453, Y=19434
-
-Button A: X+16, Y+43
-Button B: X+43, Y+13
-Prize: X=14334, Y=672
-
-Button A: X+45, Y+81
-Button B: X+47, Y+21
-Prize: X=4863, Y=4365
-
-Button A: X+50, Y+88
-Button B: X+94, Y+33
-Prize: X=6286, Y=5236
-
-Button A: X+48, Y+25
-Button B: X+12, Y+28
-Prize: X=17768, Y=3861
-
-Button A: X+45, Y+11
-Button B: X+58, Y+95
-Prize: X=1936, Y=1039
-
-Button A: X+19, Y+47
-Button B: X+64, Y+13
-Prize: X=12147, Y=18919
-
-Button A: X+80, Y+30
-Button B: X+42, Y+96
-Prize: X=7238, Y=9054
-
-Button A: X+79, Y+17
-Button B: X+65, Y+66
-Prize: X=1877, Y=768
-
-Button A: X+75, Y+28
-Button B: X+18, Y+69
-Prize: X=15962, Y=17983
-
-Button A: X+62, Y+16
-Button B: X+37, Y+72
-Prize: X=3099, Y=4984
-
-Button A: X+23, Y+59
-Button B: X+55, Y+24
-Prize: X=15955, Y=3233
-
-Button A: X+90, Y+92
-Button B: X+96, Y+19
-Prize: X=13434, Y=7481
-
-Button A: X+18, Y+95
-Button B: X+99, Y+93
-Prize: X=9108, Y=13710
-
-Button A: X+75, Y+16
-Button B: X+41, Y+66
-Prize: X=6995, Y=5500
-
-Button A: X+14, Y+23
-Button B: X+94, Y+27
-Prize: X=9192, Y=3760
-
-Button A: X+73, Y+85
-Button B: X+92, Y+15
-Prize: X=9941, Y=5495
-
-Button A: X+24, Y+41
-Button B: X+42, Y+22
-Prize: X=14984, Y=10871
-
-Button A: X+20, Y+62
-Button B: X+68, Y+18
-Prize: X=640, Y=3088
-
-Button A: X+95, Y+35
-Button B: X+38, Y+86
-Prize: X=11324, Y=11228
-
-Button A: X+95, Y+28
-Button B: X+73, Y+77
-Prize: X=6422, Y=2947
-
-Button A: X+30, Y+57
-Button B: X+52, Y+11
-Prize: X=19348, Y=1362
-
-Button A: X+17, Y+46
-Button B: X+82, Y+66
-Prize: X=3155, Y=4640
-
-Button A: X+68, Y+19
-Button B: X+13, Y+48
-Prize: X=5889, Y=13960
-
-Button A: X+96, Y+99
-Button B: X+18, Y+88
-Prize: X=2202, Y=8173
-
-Button A: X+98, Y+61
-Button B: X+16, Y+79
-Prize: X=9048, Y=9153
-
-Button A: X+12, Y+29
-Button B: X+44, Y+13
-Prize: X=920, Y=10690
-
-Button A: X+27, Y+51
-Button B: X+63, Y+33
-Prize: X=11996, Y=10844
-
-Button A: X+65, Y+40
-Button B: X+12, Y+44
-Prize: X=19411, Y=19132
-
-Button A: X+46, Y+15
-Button B: X+24, Y+45
-Prize: X=17192, Y=5435
-
-Button A: X+52, Y+22
-Button B: X+27, Y+55
-Prize: X=12428, Y=18998
-
-Button A: X+87, Y+34
-Button B: X+52, Y+70
-Prize: X=8882, Y=5806
-
-Button A: X+28, Y+51
-Button B: X+70, Y+28
-Prize: X=7630, Y=6435
-
-Button A: X+42, Y+55
-Button B: X+60, Y+24
-Prize: X=2502, Y=2949
-
-Button A: X+73, Y+32
-Button B: X+14, Y+46
-Prize: X=10931, Y=17174
-
-Button A: X+98, Y+18
-Button B: X+47, Y+56
-Prize: X=1763, Y=1508
-
-Button A: X+28, Y+64
-Button B: X+95, Y+66
-Prize: X=6324, Y=7200
-
-Button A: X+12, Y+59
-Button B: X+88, Y+39
-Prize: X=3940, Y=4806
-
-Button A: X+47, Y+73
-Button B: X+70, Y+17
-Prize: X=6986, Y=3421
-
-Button A: X+18, Y+72
-Button B: X+88, Y+87
-Prize: X=8288, Y=10362
-
-Button A: X+15, Y+45
-Button B: X+79, Y+50
-Prize: X=11399, Y=13955
-
-Button A: X+18, Y+87
-Button B: X+29, Y+20
-Prize: X=2199, Y=6663
-
-Button A: X+40, Y+94
-Button B: X+78, Y+30
-Prize: X=9204, Y=9672
-
-Button A: X+12, Y+38
-Button B: X+60, Y+15
-Prize: X=10328, Y=11272
-
-Button A: X+34, Y+29
-Button B: X+14, Y+76
-Prize: X=2064, Y=3426
-
-Button A: X+73, Y+25
-Button B: X+68, Y+96
-Prize: X=7009, Y=4509
-
-Button A: X+67, Y+33
-Button B: X+25, Y+91
-Prize: X=3950, Y=9106
-
-Button A: X+74, Y+13
-Button B: X+78, Y+84
-Prize: X=9842, Y=4330
-
-Button A: X+58, Y+12
-Button B: X+36, Y+82
-Prize: X=18226, Y=12016
-
-Button A: X+33, Y+56
-Button B: X+95, Y+12
-Prize: X=2886, Y=1764
-
-Button A: X+50, Y+85
-Button B: X+38, Y+11
-Prize: X=2546, Y=3417
-
-Button A: X+31, Y+91
-Button B: X+96, Y+29
-Prize: X=9049, Y=3305
-
-Button A: X+42, Y+32
-Button B: X+11, Y+31
-Prize: X=5313, Y=18123
-
-Button A: X+50, Y+17
-Button B: X+26, Y+67
-Prize: X=18906, Y=15755
-
-Button A: X+19, Y+88
-Button B: X+68, Y+70
-Prize: X=3070, Y=4666
-
-Button A: X+36, Y+11
-Button B: X+46, Y+83
-Prize: X=11628, Y=7725
-
-Button A: X+62, Y+11
-Button B: X+18, Y+79
-Prize: X=12652, Y=9456
-
-Button A: X+12, Y+57
-Button B: X+46, Y+22
-Prize: X=18988, Y=292
-
-Button A: X+79, Y+14
-Button B: X+42, Y+93
-Prize: X=5135, Y=7669
-
-Button A: X+51, Y+21
-Button B: X+12, Y+66
-Prize: X=3327, Y=2469
-
-Button A: X+11, Y+27
-Button B: X+98, Y+11
-Prize: X=7532, Y=2649
-
-Button A: X+35, Y+65
-Button B: X+72, Y+35
-Prize: X=8843, Y=6650
-
-Button A: X+85, Y+31
-Button B: X+24, Y+39
-Prize: X=5423, Y=2492
-
-Button A: X+55, Y+18
-Button B: X+25, Y+55
-Prize: X=2420, Y=1197
-
-Button A: X+37, Y+15
-Button B: X+32, Y+97
-Prize: X=3094, Y=6464
-
-Button A: X+19, Y+59
-Button B: X+44, Y+18
-Prize: X=17362, Y=6524
-
-Button A: X+17, Y+50
-Button B: X+56, Y+28
-Prize: X=19334, Y=10960
-
-Button A: X+46, Y+22
-Button B: X+38, Y+62
-Prize: X=6432, Y=6336
-
-Button A: X+85, Y+13
-Button B: X+87, Y+98
-Prize: X=6999, Y=5898
-
-Button A: X+81, Y+13
-Button B: X+14, Y+81
-Prize: X=1908, Y=1262
-
-Button A: X+53, Y+16
-Button B: X+22, Y+54
-Prize: X=12528, Y=19186
-
-Button A: X+25, Y+53
-Button B: X+56, Y+23
-Prize: X=16631, Y=4004
-
-Button A: X+27, Y+75
-Button B: X+64, Y+39
-Prize: X=6155, Y=4746
-
-Button A: X+75, Y+33
-Button B: X+11, Y+32
-Prize: X=3425, Y=2186
-
-Button A: X+20, Y+43
-Button B: X+90, Y+35
-Prize: X=8890, Y=5324
-
-Button A: X+71, Y+12
-Button B: X+13, Y+52
-Prize: X=16024, Y=13520
-
-Button A: X+17, Y+41
-Button B: X+70, Y+29
-Prize: X=9179, Y=3588
-
-Button A: X+23, Y+53
-Button B: X+86, Y+23
-Prize: X=4628, Y=2081
-
-Button A: X+28, Y+67
-Button B: X+54, Y+11
-Prize: X=11132, Y=12203
-
-Button A: X+11, Y+97
-Button B: X+34, Y+28
-Prize: X=2926, Y=4872
-
-Button A: X+64, Y+32
-Button B: X+12, Y+78
-Prize: X=4364, Y=4558
-
-Button A: X+31, Y+59
-Button B: X+44, Y+21
-Prize: X=17289, Y=4646
-
-Button A: X+92, Y+93
-Button B: X+90, Y+11
-Prize: X=2106, Y=1729
-
-Button A: X+70, Y+12
-Button B: X+25, Y+69
-Prize: X=1235, Y=1959
-
-Button A: X+83, Y+23
-Button B: X+27, Y+42
-Prize: X=9059, Y=4754
-
-Button A: X+72, Y+19
-Button B: X+42, Y+98
-Prize: X=6210, Y=4507
-
-Button A: X+54, Y+21
-Button B: X+34, Y+69
-Prize: X=2802, Y=7613
-
-Button A: X+18, Y+76
-Button B: X+93, Y+44
-Prize: X=4359, Y=5504
-
-Button A: X+88, Y+82
-Button B: X+11, Y+66
-Prize: X=6336, Y=8134
-
-Button A: X+14, Y+53
-Button B: X+63, Y+48
-Prize: X=1715, Y=4397
-
-Button A: X+12, Y+72
-Button B: X+53, Y+46
-Prize: X=3422, Y=8020
-
-Button A: X+82, Y+31
-Button B: X+13, Y+65
-Prize: X=872, Y=570
-
-Button A: X+40, Y+77
-Button B: X+45, Y+12
-Prize: X=9155, Y=16763
-
-Button A: X+89, Y+45
-Button B: X+37, Y+86
-Prize: X=8787, Y=5856
-
-Button A: X+37, Y+49
-Button B: X+78, Y+20
-Prize: X=4981, Y=2265
-
-Button A: X+45, Y+14
-Button B: X+40, Y+80
-Prize: X=19160, Y=9168
-
-Button A: X+26, Y+26
-Button B: X+13, Y+61
-Prize: X=936, Y=3528
-
-Button A: X+59, Y+38
-Button B: X+21, Y+46
-Prize: X=7487, Y=9522
-
-Button A: X+59, Y+15
-Button B: X+39, Y+49
-Prize: X=4181, Y=4307
-
-Button A: X+26, Y+72
-Button B: X+65, Y+14
-Prize: X=1953, Y=17382
-
-Button A: X+23, Y+42
-Button B: X+44, Y+18
-Prize: X=14527, Y=2876
-
-Button A: X+78, Y+80
-Button B: X+52, Y+14
-Prize: X=8632, Y=7988
-
-Button A: X+93, Y+19
-Button B: X+25, Y+90
-Prize: X=3272, Y=2621
-
-Button A: X+44, Y+13
-Button B: X+39, Y+89
-Prize: X=3982, Y=6290
-
-Button A: X+14, Y+75
-Button B: X+99, Y+58
-Prize: X=9373, Y=7228
-
-Button A: X+75, Y+25
-Button B: X+23, Y+73
-Prize: X=4424, Y=2324
-
-Button A: X+80, Y+21
-Button B: X+14, Y+98
-Prize: X=8460, Y=6937
-
-Button A: X+22, Y+67
-Button B: X+55, Y+14
-Prize: X=12893, Y=1666
-
-Button A: X+44, Y+13
-Button B: X+14, Y+48
-Prize: X=13366, Y=3202
-
-Button A: X+59, Y+20
-Button B: X+23, Y+33
-Prize: X=4975, Y=2871
-
-Button A: X+44, Y+15
-Button B: X+14, Y+62
-Prize: X=4970, Y=5944
-
-Button A: X+29, Y+54
-Button B: X+56, Y+30
-Prize: X=876, Y=14426
-
-Button A: X+56, Y+93
-Button B: X+53, Y+20
-Prize: X=6683, Y=5181
-
-Button A: X+63, Y+30
-Button B: X+20, Y+64
-Prize: X=5778, Y=3732
-
-Button A: X+61, Y+33
-Button B: X+18, Y+77
-Prize: X=5079, Y=8734
-
-Button A: X+32, Y+49
-Button B: X+45, Y+18
-Prize: X=3693, Y=10723
-
-Button A: X+76, Y+40
-Button B: X+12, Y+36
-Prize: X=16324, Y=2236
-
-Button A: X+77, Y+51
-Button B: X+11, Y+41
-Prize: X=2267, Y=12225
-
-Button A: X+58, Y+99
-Button B: X+62, Y+34
-Prize: X=7692, Y=8317
-
-Button A: X+20, Y+41
-Button B: X+67, Y+37
-Prize: X=9857, Y=1424
-
-Button A: X+11, Y+43
-Button B: X+69, Y+22
-Prize: X=15065, Y=10720
-
-Button A: X+29, Y+11
-Button B: X+52, Y+67
-Prize: X=3902, Y=3920
-
-Button A: X+15, Y+50
-Button B: X+71, Y+17
-Prize: X=8940, Y=2275
-
-Button A: X+78, Y+30
-Button B: X+14, Y+79
-Prize: X=5540, Y=7063
-
-Button A: X+31, Y+71
-Button B: X+73, Y+33
-Prize: X=4164, Y=3364
-
-Button A: X+29, Y+58
-Button B: X+94, Y+19
-Prize: X=8545, Y=5429
-
-Button A: X+14, Y+69
-Button B: X+81, Y+63
-Prize: X=7390, Y=9525
-
-Button A: X+63, Y+17
-Button B: X+17, Y+73
-Prize: X=11994, Y=19446
-
-Button A: X+90, Y+30
-Button B: X+19, Y+31
-Prize: X=7044, Y=2496
-
-Button A: X+11, Y+50
-Button B: X+38, Y+11
-Prize: X=19768, Y=3529
-
-Button A: X+64, Y+12
-Button B: X+28, Y+80
-Prize: X=13976, Y=17876
-
-Button A: X+12, Y+37
-Button B: X+71, Y+35
-Prize: X=6039, Y=7825
-
-Button A: X+69, Y+70
-Button B: X+17, Y+76
-Prize: X=3210, Y=6958
-
-Button A: X+21, Y+56
-Button B: X+50, Y+17
-Prize: X=2424, Y=2974
-
-Button A: X+65, Y+12
-Button B: X+23, Y+51
-Prize: X=4636, Y=5391
-
-Button A: X+57, Y+27
-Button B: X+39, Y+71
-Prize: X=17261, Y=5991
-
-Button A: X+47, Y+18
-Button B: X+68, Y+90
-Prize: X=6739, Y=6930
-
-Button A: X+11, Y+32
-Button B: X+59, Y+18
-Prize: X=18943, Y=2346
-
-Button A: X+45, Y+44
-Button B: X+89, Y+17
-Prize: X=2828, Y=2275
-
-Button A: X+32, Y+50
-Button B: X+39, Y+19
-Prize: X=3225, Y=2525
-
-Button A: X+11, Y+31
-Button B: X+67, Y+25
-Prize: X=14827, Y=9669
-
-Button A: X+40, Y+12
-Button B: X+37, Y+68
-Prize: X=16679, Y=12220
-
-Button A: X+47, Y+26
-Button B: X+34, Y+83
-Prize: X=5170, Y=5877
-
-Button A: X+27, Y+70
-Button B: X+76, Y+57
-Prize: X=5904, Y=9005
-
-Button A: X+99, Y+16
-Button B: X+54, Y+81
-Prize: X=2592, Y=708
-
-Button A: X+12, Y+45
-Button B: X+69, Y+29
-Prize: X=1424, Y=16618
-
-Button A: X+26, Y+92
-Button B: X+64, Y+45
-Prize: X=1616, Y=1726
-
-Button A: X+55, Y+26
-Button B: X+30, Y+57
-Prize: X=2240, Y=3628
-
-Button A: X+13, Y+34
-Button B: X+63, Y+13
-Prize: X=16497, Y=10164
-
-Button A: X+28, Y+74
-Button B: X+39, Y+12
-Prize: X=4488, Y=7854
-
-Button A: X+43, Y+72
-Button B: X+84, Y+42
-Prize: X=4210, Y=2610
-
-Button A: X+19, Y+71
-Button B: X+61, Y+17
-Prize: X=6902, Y=494
-
-Button A: X+54, Y+85
-Button B: X+72, Y+20
-Prize: X=4842, Y=6875
-
-Button A: X+53, Y+11
-Button B: X+18, Y+56
-Prize: X=5621, Y=4017
-
-Button A: X+44, Y+18
-Button B: X+31, Y+50
-Prize: X=14076, Y=10362
-
-Button A: X+39, Y+23
-Button B: X+11, Y+23
-Prize: X=17763, Y=3987
-
-Button A: X+18, Y+44
-Button B: X+41, Y+13
-Prize: X=1213, Y=2529
-
-Button A: X+12, Y+68
-Button B: X+71, Y+65
-Prize: X=4538, Y=6150
-
-Button A: X+59, Y+28
-Button B: X+22, Y+52
-Prize: X=6713, Y=9876
-
-Button A: X+54, Y+19
-Button B: X+13, Y+31
-Prize: X=7630, Y=13243
-
-Button A: X+67, Y+12
-Button B: X+13, Y+62
-Prize: X=15477, Y=19170
-
-Button A: X+67, Y+25
-Button B: X+16, Y+98
-Prize: X=6167, Y=8099
-
-Button A: X+23, Y+41
-Button B: X+34, Y+20
-Prize: X=15724, Y=15050
-
-Button A: X+34, Y+65
-Button B: X+40, Y+15
-Prize: X=10362, Y=17085
-
-Button A: X+11, Y+78
-Button B: X+81, Y+54
-Prize: X=5410, Y=7140
-
-Button A: X+37, Y+65
-Button B: X+65, Y+18
-Prize: X=3813, Y=5929
-
-Button A: X+77, Y+30
-Button B: X+53, Y+95
-Prize: X=2764, Y=3010
-
-Button A: X+98, Y+15
-Button B: X+72, Y+68
-Prize: X=8952, Y=4732
-
-Button A: X+29, Y+14
-Button B: X+48, Y+74
-Prize: X=18622, Y=9292
-
-Button A: X+46, Y+76
-Button B: X+34, Y+13
-Prize: X=14076, Y=10938
-
-Button A: X+14, Y+33
-Button B: X+43, Y+12
-Prize: X=13470, Y=10505
-
-Button A: X+40, Y+16
-Button B: X+11, Y+19
-Prize: X=16938, Y=9234
-
-Button A: X+26, Y+69
-Button B: X+40, Y+12
-Prize: X=2382, Y=4367
-
-Button A: X+55, Y+19
-Button B: X+46, Y+90
-Prize: X=5037, Y=7817
-
-Button A: X+62, Y+11
-Button B: X+58, Y+68
-Prize: X=2086, Y=1582
-
-Button A: X+25, Y+57
-Button B: X+63, Y+34
-Prize: X=1170, Y=1023
-
-Button A: X+13, Y+52
-Button B: X+69, Y+25
-Prize: X=18225, Y=7037
-
-Button A: X+29, Y+84
-Button B: X+44, Y+32
-Prize: X=2871, Y=2780
-
-Button A: X+56, Y+80
-Button B: X+78, Y+17
-Prize: X=4586, Y=2491
-
-Button A: X+24, Y+99
-Button B: X+89, Y+26
-Prize: X=7310, Y=6275
-
-Button A: X+16, Y+38
-Button B: X+79, Y+56
-Prize: X=10758, Y=8014
-
-Button A: X+73, Y+47
-Button B: X+24, Y+49
-Prize: X=2003, Y=15822
-
-Button A: X+76, Y+27
-Button B: X+17, Y+58
-Prize: X=3080, Y=4004
-
-Button A: X+97, Y+40
-Button B: X+36, Y+80
-Prize: X=4729, Y=6120
-
-Button A: X+46, Y+14
-Button B: X+36, Y+69
-Prize: X=750, Y=13525
-
-Button A: X+31, Y+70
-Button B: X+28, Y+14
-Prize: X=5465, Y=7910
-
-Button A: X+31, Y+59
-Button B: X+43, Y+17
-Prize: X=13684, Y=10746
-
-Button A: X+15, Y+51
-Button B: X+58, Y+32
-Prize: X=2390, Y=1220
-
-Button A: X+26, Y+15
-Button B: X+15, Y+99
-Prize: X=1101, Y=1629
-
-Button A: X+85, Y+45
-Button B: X+56, Y+95
-Prize: X=10702, Y=12005
-
-Button A: X+66, Y+14
-Button B: X+20, Y+62
-Prize: X=15830, Y=17694
-
-Button A: X+56, Y+17
-Button B: X+19, Y+49
-Prize: X=10565, Y=1079
-
-Button A: X+13, Y+91
-Button B: X+70, Y+85
-Prize: X=4310, Y=7490
-
-Button A: X+16, Y+96
-Button B: X+92, Y+75
-Prize: X=6368, Y=13404
-
-Button A: X+75, Y+18
-Button B: X+11, Y+40
-Prize: X=953, Y=5870
-
-Button A: X+36, Y+20
-Button B: X+17, Y+42
-Prize: X=3873, Y=3226
-
-Button A: X+57, Y+45
-Button B: X+19, Y+54
-Prize: X=6213, Y=6777
-
-Button A: X+32, Y+89
-Button B: X+64, Y+27
-Prize: X=3264, Y=1679
-
-Button A: X+55, Y+18
-Button B: X+26, Y+55
-Prize: X=12643, Y=13811
-
-Button A: X+11, Y+99
-Button B: X+88, Y+92
-Prize: X=5357, Y=10413
-
-Button A: X+57, Y+24
-Button B: X+13, Y+40
-Prize: X=5132, Y=9920
-
-Button A: X+58, Y+13
-Button B: X+20, Y+62
-Prize: X=7590, Y=15279
-
-Button A: X+81, Y+61
-Button B: X+12, Y+65
-Prize: X=7338, Y=10283
-
-Button A: X+57, Y+83
-Button B: X+29, Y+11
-Prize: X=1856, Y=5024
-
-Button A: X+66, Y+21
-Button B: X+17, Y+48
-Prize: X=7331, Y=14951
-
-Button A: X+59, Y+34
-Button B: X+12, Y+46
-Prize: X=8132, Y=1294
-
-Button A: X+11, Y+39
-Button B: X+73, Y+23
-Prize: X=19173, Y=4599
-
-Button A: X+15, Y+21
-Button B: X+77, Y+27
-Prize: X=2229, Y=939
-
-Button A: X+44, Y+69
-Button B: X+32, Y+13
-Prize: X=11884, Y=11249
-
-Button A: X+34, Y+22
-Button B: X+24, Y+47
-Prize: X=12504, Y=6477
-
-Button A: X+93, Y+34
-Button B: X+58, Y+72
-Prize: X=9251, Y=4398
-
-Button A: X+49, Y+40
-Button B: X+87, Y+12
-Prize: X=6126, Y=2640
-
-Button A: X+62, Y+22
-Button B: X+28, Y+63
-Prize: X=6858, Y=16418
-
-Button A: X+15, Y+46
-Button B: X+82, Y+49
-Prize: X=16041, Y=1340
-
-Button A: X+14, Y+94
-Button B: X+31, Y+32
-Prize: X=1876, Y=5198
-
-Button A: X+29, Y+66
-Button B: X+93, Y+53
-Prize: X=5348, Y=7253
-
-Button A: X+95, Y+28
-Button B: X+47, Y+80
-Prize: X=9440, Y=4436
-
-Button A: X+34, Y+91
-Button B: X+65, Y+53
-Prize: X=2833, Y=5284
-
-Button A: X+17, Y+63
-Button B: X+69, Y+33
-Prize: X=5323, Y=4137
-
-Button A: X+34, Y+15
-Button B: X+60, Y+94
-Prize: X=6218, Y=6795
-
-Button A: X+49, Y+19
-Button B: X+24, Y+60
-Prize: X=1447, Y=6193
-
-Button A: X+11, Y+53
-Button B: X+44, Y+14
-Prize: X=7118, Y=2564
-
-Button A: X+94, Y+95
-Button B: X+88, Y+22
-Prize: X=7016, Y=4614
-
-Button A: X+29, Y+41
-Button B: X+91, Y+40
-Prize: X=6833, Y=5405
-
-Button A: X+46, Y+11
-Button B: X+38, Y+65
-Prize: X=2892, Y=1698
-
-Button A: X+26, Y+42
-Button B: X+41, Y+14
-Prize: X=8559, Y=1964
-
-Button A: X+31, Y+67
-Button B: X+72, Y+37
-Prize: X=7974, Y=8694
-
-Button A: X+87, Y+14
-Button B: X+12, Y+82
-Prize: X=4589, Y=4196
-
-Button A: X+13, Y+70
-Button B: X+40, Y+20
-Prize: X=2015, Y=5770
-
-Button A: X+23, Y+37
-Button B: X+57, Y+21
-Prize: X=7005, Y=4977
-
-Button A: X+24, Y+59
-Button B: X+79, Y+45
-Prize: X=1355, Y=2585
-
-Button A: X+37, Y+12
-Button B: X+22, Y+43
-Prize: X=17091, Y=15966
-
-Button A: X+46, Y+13
-Button B: X+15, Y+62
-Prize: X=12329, Y=1775
-
-Button A: X+51, Y+22
-Button B: X+11, Y+56
-Prize: X=2258, Y=10890
-
-Button A: X+54, Y+17
-Button B: X+25, Y+59
-Prize: X=4809, Y=7090
-
-Button A: X+58, Y+19
-Button B: X+27, Y+74
-Prize: X=9883, Y=3567
-
-Button A: X+13, Y+80
-Button B: X+73, Y+75
-Prize: X=5253, Y=10995
-
-Button A: X+12, Y+22
-Button B: X+45, Y+22
-Prize: X=10454, Y=11540
-
-Button A: X+27, Y+82
-Button B: X+95, Y+67
-Prize: X=5143, Y=9860
-
-Button A: X+56, Y+67
-Button B: X+92, Y+27
-Prize: X=13280, Y=8246
-
-Button A: X+39, Y+11
-Button B: X+33, Y+54
-Prize: X=13970, Y=2728
-
-Button A: X+29, Y+45
-Button B: X+47, Y+20
-Prize: X=11430, Y=12300
-
-Button A: X+63, Y+29
-Button B: X+31, Y+63
-Prize: X=15707, Y=10361
-
-Button A: X+95, Y+52
-Button B: X+50, Y+91
-Prize: X=12070, Y=10361
-
-Button A: X+89, Y+22
-Button B: X+37, Y+48
-Prize: X=7161, Y=3402
-
-Button A: X+71, Y+29
-Button B: X+17, Y+57
-Prize: X=13524, Y=11818
-
-Button A: X+32, Y+19
-Button B: X+33, Y+79
-Prize: X=4806, Y=7012
-
-Button A: X+19, Y+79
-Button B: X+87, Y+51
-Prize: X=2727, Y=7299
-
-Button A: X+30, Y+96
-Button B: X+84, Y+73
-Prize: X=2304, Y=3261
-
-Button A: X+20, Y+19
-Button B: X+11, Y+79
-Prize: X=839, Y=2785
-
-Button A: X+27, Y+47
-Button B: X+61, Y+19
-Prize: X=3231, Y=4055
-
-Button A: X+12, Y+29
-Button B: X+41, Y+18
-Prize: X=9603, Y=8529
-
-Button A: X+28, Y+17
-Button B: X+36, Y+70
-Prize: X=4408, Y=5950
-
-Button A: X+74, Y+20
-Button B: X+28, Y+56
-Prize: X=1982, Y=2812
-
-Button A: X+16, Y+52
-Button B: X+58, Y+41
-Prize: X=652, Y=1234
-
-Button A: X+22, Y+14
-Button B: X+31, Y+62
-Prize: X=4003, Y=6056
-
-Button A: X+12, Y+75
-Button B: X+52, Y+19
-Prize: X=2804, Y=4061
-
-Button A: X+72, Y+27
-Button B: X+49, Y+60
-Prize: X=9585, Y=6966
-
-Button A: X+56, Y+18
-Button B: X+18, Y+48
-Prize: X=584, Y=18170
-
-Button A: X+99, Y+88
-Button B: X+31, Y+94
-Prize: X=4773, Y=6834
-
-Button A: X+15, Y+44
-Button B: X+79, Y+51
-Prize: X=5502, Y=4753
-
-Button A: X+44, Y+65
-Button B: X+40, Y+14
-Prize: X=1264, Y=17268
-
-Button A: X+59, Y+14
-Button B: X+11, Y+41
-Prize: X=763, Y=12898
-
-Button A: X+94, Y+57
-Button B: X+33, Y+75
-Prize: X=4672, Y=8112
-
-Button A: X+55, Y+24
-Button B: X+12, Y+43
-Prize: X=1128, Y=16380
-
-Button A: X+41, Y+12
-Button B: X+34, Y+61
-Prize: X=2280, Y=12417
-
-Button A: X+24, Y+65
-Button B: X+28, Y+11
-Prize: X=7572, Y=17387
-
-Button A: X+37, Y+71
-Button B: X+80, Y+11
-Prize: X=3867, Y=2575
-
-Button A: X+19, Y+56
-Button B: X+51, Y+23
-Prize: X=14915, Y=775
-
-Button A: X+46, Y+71
-Button B: X+46, Y+18
-Prize: X=12290, Y=3949
-
-Button A: X+96, Y+67
-Button B: X+14, Y+32
-Prize: X=5244, Y=5127
-
-Button A: X+29, Y+68
-Button B: X+58, Y+15
-Prize: X=4582, Y=5904
-
-Button A: X+51, Y+38
-Button B: X+32, Y+92
-Prize: X=6544, Y=10124
-
-Button A: X+15, Y+63
-Button B: X+29, Y+12
-Prize: X=9073, Y=14123
-
-Button A: X+96, Y+13
-Button B: X+79, Y+90
-Prize: X=7307, Y=1386
-
-Button A: X+18, Y+66
-Button B: X+80, Y+33
-Prize: X=12376, Y=13388
-
-Button A: X+22, Y+77
-Button B: X+15, Y+11
-Prize: X=2607, Y=5929
-
-Button A: X+97, Y+18
-Button B: X+72, Y+99
-Prize: X=8070, Y=2097
-
-Button A: X+40, Y+18
-Button B: X+17, Y+36
-Prize: X=2729, Y=18242
-
-Button A: X+18, Y+89
-Button B: X+52, Y+51
-Prize: X=3582, Y=6581
-
-Button A: X+82, Y+37
-Button B: X+19, Y+99
-Prize: X=1851, Y=4181
-
-Button A: X+88, Y+49
-Button B: X+24, Y+91
-Prize: X=5024, Y=8232
-
-Button A: X+13, Y+40
-Button B: X+24, Y+15
-Prize: X=4007, Y=7715
-
-Button A: X+21, Y+49
-Button B: X+58, Y+38
-Prize: X=2673, Y=3901
-
-Button A: X+40, Y+81
-Button B: X+99, Y+25
-Prize: X=7412, Y=3077
-
-Button A: X+35, Y+35
-Button B: X+21, Y+89
-Prize: X=4277, Y=7813
-
-Button A: X+29, Y+94
-Button B: X+88, Y+43
-Prize: X=7680, Y=5030
-
-Button A: X+45, Y+63
-Button B: X+89, Y+12
-Prize: X=3885, Y=2061
-
-Button A: X+23, Y+63
-Button B: X+49, Y+11
-Prize: X=1101, Y=8353
-
-Button A: X+47, Y+55
-Button B: X+95, Y+20
-Prize: X=5908, Y=3905
-
-Button A: X+59, Y+17
-Button B: X+19, Y+50
-Prize: X=17147, Y=3774
-
-Button A: X+12, Y+28
-Button B: X+46, Y+32
-Prize: X=3452, Y=14720
-
-Button A: X+30, Y+92
-Button B: X+56, Y+47
-Prize: X=3108, Y=9157
-
-Button A: X+79, Y+15
-Button B: X+12, Y+47
-Prize: X=623, Y=968
-
-Button A: X+20, Y+54
-Button B: X+46, Y+26
-Prize: X=19274, Y=8246
-
-Button A: X+38, Y+91
-Button B: X+75, Y+38
-Prize: X=4437, Y=9351
-
-Button A: X+22, Y+70
-Button B: X+69, Y+15
-Prize: X=5876, Y=3560
-
-Button A: X+94, Y+79
-Button B: X+24, Y+75
-Prize: X=9816, Y=10059
-
-Button A: X+80, Y+87
-Button B: X+97, Y+23
-Prize: X=3605, Y=3508
-
-Button A: X+19, Y+15
-Button B: X+11, Y+63
-Prize: X=235, Y=783
-
-Button A: X+57, Y+14
-Button B: X+12, Y+72
-Prize: X=8657, Y=12990
-
-Button A: X+63, Y+21
-Button B: X+16, Y+89
-Prize: X=1906, Y=5990
-
-Button A: X+72, Y+57
-Button B: X+24, Y+65
-Prize: X=7608, Y=9841
-
-Button A: X+12, Y+88
-Button B: X+18, Y+17
-Prize: X=2730, Y=8865
-
-Button A: X+73, Y+25
-Button B: X+33, Y+63
-Prize: X=5285, Y=6773
-
-Button A: X+20, Y+65
-Button B: X+72, Y+21
-Prize: X=5640, Y=5955
-
-Button A: X+94, Y+38
-Button B: X+44, Y+99
-Prize: X=7158, Y=3787
-
-Button A: X+12, Y+34
-Button B: X+44, Y+13
-Prize: X=3308, Y=13796
+27 18 17 44 8105 9698
+12 64 71 42 3104 3088
+73 35 24 71 7324 7914
+25 53 62 37 19587 15892
+71 18 23 71 7286 4520
+21 52 55 16 395 11424
+79 33 22 56 3969 2875
+33 58 37 15 11569 16673
+17 59 76 30 8790 9300
+94 20 57 71 14573 8929
+53 25 13 33 12977 2517
+60 27 54 84 4044 2178
+19 38 65 32 16453 19434
+16 43 43 13 14334 672
+45 81 47 21 4863 4365
+50 88 94 33 6286 5236
+48 25 12 28 17768 3861
+45 11 58 95 1936 1039
+19 47 64 13 12147 18919
+80 30 42 96 7238 9054
+79 17 65 66 1877 768
+75 28 18 69 15962 17983
+62 16 37 72 3099 4984
+23 59 55 24 15955 3233
+90 92 96 19 13434 7481
+18 95 99 93 9108 13710
+75 16 41 66 6995 5500
+14 23 94 27 9192 3760
+73 85 92 15 9941 5495
+24 41 42 22 14984 10871
+20 62 68 18 640 3088
+95 35 38 86 11324 11228
+95 28 73 77 6422 2947
+30 57 52 11 19348 1362
+17 46 82 66 3155 4640
+68 19 13 48 5889 13960
+96 99 18 88 2202 8173
+98 61 16 79 9048 9153
+12 29 44 13 920 10690
+27 51 63 33 11996 10844
+65 40 12 44 19411 19132
+46 15 24 45 17192 5435
+52 22 27 55 12428 18998
+87 34 52 70 8882 5806
+28 51 70 28 7630 6435
+42 55 60 24 2502 2949
+73 32 14 46 10931 17174
+98 18 47 56 1763 1508
+28 64 95 66 6324 7200
+12 59 88 39 3940 4806
+47 73 70 17 6986 3421
+18 72 88 87 8288 10362
+15 45 79 50 11399 13955
+18 87 29 20 2199 6663
+40 94 78 30 9204 9672
+12 38 60 15 10328 11272
+34 29 14 76 2064 3426
+73 25 68 96 7009 4509
+67 33 25 91 3950 9106
+74 13 78 84 9842 4330
+58 12 36 82 18226 12016
+33 56 95 12 2886 1764
+50 85 38 11 2546 3417
+31 91 96 29 9049 3305
+42 32 11 31 5313 18123
+50 17 26 67 18906 15755
+19 88 68 70 3070 4666
+36 11 46 83 11628 7725
+62 11 18 79 12652 9456
+12 57 46 22 18988 292
+79 14 42 93 5135 7669
+51 21 12 66 3327 2469
+11 27 98 11 7532 2649
+35 65 72 35 8843 6650
+85 31 24 39 5423 2492
+55 18 25 55 2420 1197
+37 15 32 97 3094 6464
+19 59 44 18 17362 6524
+17 50 56 28 19334 10960
+46 22 38 62 6432 6336
+85 13 87 98 6999 5898
+81 13 14 81 1908 1262
+53 16 22 54 12528 19186
+25 53 56 23 16631 4004
+27 75 64 39 6155 4746
+75 33 11 32 3425 2186
+20 43 90 35 8890 5324
+71 12 13 52 16024 13520
+17 41 70 29 9179 3588
+23 53 86 23 4628 2081
+28 67 54 11 11132 12203
+11 97 34 28 2926 4872
+64 32 12 78 4364 4558
+31 59 44 21 17289 4646
+92 93 90 11 2106 1729
+70 12 25 69 1235 1959
+83 23 27 42 9059 4754
+72 19 42 98 6210 4507
+54 21 34 69 2802 7613
+18 76 93 44 4359 5504
+88 82 11 66 6336 8134
+14 53 63 48 1715 4397
+12 72 53 46 3422 8020
+82 31 13 65 872 570
+40 77 45 12 9155 16763
+89 45 37 86 8787 5856
+37 49 78 20 4981 2265
+45 14 40 80 19160 9168
+26 26 13 61 936 3528
+59 38 21 46 7487 9522
+59 15 39 49 4181 4307
+26 72 65 14 1953 17382
+23 42 44 18 14527 2876
+78 80 52 14 8632 7988
+93 19 25 90 3272 2621
+44 13 39 89 3982 6290
+14 75 99 58 9373 7228
+75 25 23 73 4424 2324
+80 21 14 98 8460 6937
+22 67 55 14 12893 1666
+44 13 14 48 13366 3202
+59 20 23 33 4975 2871
+44 15 14 62 4970 5944
+29 54 56 30 876 14426
+56 93 53 20 6683 5181
+63 30 20 64 5778 3732
+61 33 18 77 5079 8734
+32 49 45 18 3693 10723
+76 40 12 36 16324 2236
+77 51 11 41 2267 12225
+58 99 62 34 7692 8317
+20 41 67 37 9857 1424
+11 43 69 22 15065 10720
+29 11 52 67 3902 3920
+15 50 71 17 8940 2275
+78 30 14 79 5540 7063
+31 71 73 33 4164 3364
+29 58 94 19 8545 5429
+14 69 81 63 7390 9525
+63 17 17 73 11994 19446
+90 30 19 31 7044 2496
+11 50 38 11 19768 3529
+64 12 28 80 13976 17876
+12 37 71 35 6039 7825
+69 70 17 76 3210 6958
+21 56 50 17 2424 2974
+65 12 23 51 4636 5391
+57 27 39 71 17261 5991
+47 18 68 90 6739 6930
+11 32 59 18 18943 2346
+45 44 89 17 2828 2275
+32 50 39 19 3225 2525
+11 31 67 25 14827 9669
+40 12 37 68 16679 12220
+47 26 34 83 5170 5877
+27 70 76 57 5904 9005
+99 16 54 81 2592 708
+12 45 69 29 1424 16618
+26 92 64 45 1616 1726
+55 26 30 57 2240 3628
+13 34 63 13 16497 10164
+28 74 39 12 4488 7854
+43 72 84 42 4210 2610
+19 71 61 17 6902 494
+54 85 72 20 4842 6875
+53 11 18 56 5621 4017
+44 18 31 50 14076 10362
+39 23 11 23 17763 3987
+18 44 41 13 1213 2529
+12 68 71 65 4538 6150
+59 28 22 52 6713 9876
+54 19 13 31 7630 13243
+67 12 13 62 15477 19170
+67 25 16 98 6167 8099
+23 41 34 20 15724 15050
+34 65 40 15 10362 17085
+11 78 81 54 5410 7140
+37 65 65 18 3813 5929
+77 30 53 95 2764 3010
+98 15 72 68 8952 4732
+29 14 48 74 18622 9292
+46 76 34 13 14076 10938
+14 33 43 12 13470 10505
+40 16 11 19 16938 9234
+26 69 40 12 2382 4367
+55 19 46 90 5037 7817
+62 11 58 68 2086 1582
+25 57 63 34 1170 1023
+13 52 69 25 18225 7037
+29 84 44 32 2871 2780
+56 80 78 17 4586 2491
+24 99 89 26 7310 6275
+16 38 79 56 10758 8014
+73 47 24 49 2003 15822
+76 27 17 58 3080 4004
+97 40 36 80 4729 6120
+46 14 36 69 750 13525
+31 70 28 14 5465 7910
+31 59 43 17 13684 10746
+15 51 58 32 2390 1220
+26 15 15 99 1101 1629
+85 45 56 95 10702 12005
+66 14 20 62 15830 17694
+56 17 19 49 10565 1079
+13 91 70 85 4310 7490
+16 96 92 75 6368 13404
+75 18 11 40 953 5870
+36 20 17 42 3873 3226
+57 45 19 54 6213 6777
+32 89 64 27 3264 1679
+55 18 26 55 12643 13811
+11 99 88 92 5357 10413
+57 24 13 40 5132 9920
+58 13 20 62 7590 15279
+81 61 12 65 7338 10283
+57 83 29 11 1856 5024
+66 21 17 48 7331 14951
+59 34 12 46 8132 1294
+11 39 73 23 19173 4599
+15 21 77 27 2229 939
+44 69 32 13 11884 11249
+34 22 24 47 12504 6477
+93 34 58 72 9251 4398
+49 40 87 12 6126 2640
+62 22 28 63 6858 16418
+15 46 82 49 16041 1340
+14 94 31 32 1876 5198
+29 66 93 53 5348 7253
+95 28 47 80 9440 4436
+34 91 65 53 2833 5284
+17 63 69 33 5323 4137
+34 15 60 94 6218 6795
+49 19 24 60 1447 6193
+11 53 44 14 7118 2564
+94 95 88 22 7016 4614
+29 41 91 40 6833 5405
+46 11 38 65 2892 1698
+26 42 41 14 8559 1964
+31 67 72 37 7974 8694
+87 14 12 82 4589 4196
+13 70 40 20 2015 5770
+23 37 57 21 7005 4977
+24 59 79 45 1355 2585
+37 12 22 43 17091 15966
+46 13 15 62 12329 1775
+51 22 11 56 2258 10890
+54 17 25 59 4809 7090
+58 19 27 74 9883 3567
+13 80 73 75 5253 10995
+12 22 45 22 10454 11540
+27 82 95 67 5143 9860
+56 67 92 27 13280 8246
+39 11 33 54 13970 2728
+29 45 47 20 11430 12300
+63 29 31 63 15707 10361
+95 52 50 91 12070 10361
+89 22 37 48 7161 3402
+71 29 17 57 13524 11818
+32 19 33 79 4806 7012
+19 79 87 51 2727 7299
+30 96 84 73 2304 3261
+20 19 11 79 839 2785
+27 47 61 19 3231 4055
+12 29 41 18 9603 8529
+28 17 36 70 4408 5950
+74 20 28 56 1982 2812
+16 52 58 41 652 1234
+22 14 31 62 4003 6056
+12 75 52 19 2804 4061
+72 27 49 60 9585 6966
+56 18 18 48 584 18170
+99 88 31 94 4773 6834
+15 44 79 51 5502 4753
+44 65 40 14 1264 17268
+59 14 11 41 763 12898
+94 57 33 75 4672 8112
+55 24 12 43 1128 16380
+41 12 34 61 2280 12417
+24 65 28 11 7572 17387
+37 71 80 11 3867 2575
+19 56 51 23 14915 775
+46 71 46 18 12290 3949
+96 67 14 32 5244 5127
+29 68 58 15 4582 5904
+51 38 32 92 6544 10124
+15 63 29 12 9073 14123
+96 13 79 90 7307 1386
+18 66 80 33 12376 13388
+22 77 15 11 2607 5929
+97 18 72 99 8070 2097
+40 18 17 36 2729 18242
+18 89 52 51 3582 6581
+82 37 19 99 1851 4181
+88 49 24 91 5024 8232
+13 40 24 15 4007 7715
+21 49 58 38 2673 3901
+40 81 99 25 7412 3077
+35 35 21 89 4277 7813
+29 94 88 43 7680 5030
+45 63 89 12 3885 2061
+23 63 49 11 1101 8353
+47 55 95 20 5908 3905
+59 17 19 50 17147 3774
+12 28 46 32 3452 14720
+30 92 56 47 3108 9157
+79 15 12 47 623 968
+20 54 46 26 19274 8246
+38 91 75 38 4437 9351
+22 70 69 15 5876 3560
+94 79 24 75 9816 10059
+80 87 97 23 3605 3508
+19 15 11 63 235 783
+57 14 12 72 8657 12990
+63 21 16 89 1906 5990
+72 57 24 65 7608 9841
+12 88 18 17 2730 8865
+73 25 33 63 5285 6773
+20 65 72 21 5640 5955
+94 38 44 99 7158 3787
+12 34 44 13 3308 13796
