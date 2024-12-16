@@ -63,7 +63,7 @@
         (process-item item)))
     result))
 
-(defun render-grid-with-start-end-and-direction (points start-point end-point direction-points width height)
+(defun render-grid-with-start-end-and-direction (points start-point end-point more-points width height more-points-char)
   "Render a grid with the given points, start point, end point, direction points, width, and height."
   (let ((grid (make-array (list height width) :initial-element #\.)))
     ;; Populate the grid with points
@@ -72,8 +72,8 @@
              points)
     ;; Populate the grid with direction points based on keys
     (maphash (lambda (key value)
-               (setf (aref grid (first key) (second key)) #\>))
-             direction-points)
+               (setf (aref grid (first key) (second key)) more-points-char))
+             more-points)
     ;; Set the start point and end point
     (setf (aref grid (first start-point) (second start-point)) #\S)
     (setf (aref grid (first end-point) (second end-point)) #\E)
@@ -102,7 +102,6 @@
   (if (= (length *queue*) 0)
     nil
     (let* ((item (pop *queue*)) (point (first item)))
-      (defparameter *count* (1+ *count*))
       ;(format t "Item: ~a~%" item)
       (if (and (= (first point) (first *end*)) (= (second point) (second *end*)))
         (progn
@@ -122,7 +121,6 @@
 
 (defun move (item)
   (let* ((point (first item)))
-    (defparameter *count* (1+ *count*))
     ;(format t "Item: ~a~%" item)
     (multiple-value-bind (value found) (gethash (list point (second item)) *visitedFailed*)
       (if (and found (>= (fourth item) value))
@@ -179,24 +177,45 @@
 (setf (gethash *start* *visisted*) t)
 (defparameter *queue* (list (list *start* (list 0 1) nil 0)))
 (defparameter *endPath* nil)
-(defparameter *count* 0)
-
 (move-min)
-(calculate-score *endPath*)
-(count-items-in-chain *endPath*)
 
-(defparameter *maxSteps* (count-items-in-chain *endPath*))
 (defparameter *maxTurns* (fourth *endPath*))
 (defparameter *visisted* (make-hash-table :test 'equal))
 (defparameter *visitedFailed* (make-hash-table :test 'equal))
 (defparameter *endPaths* '())
-(defparameter *count* 0)
 (move (list *start* (list 0 1) nil 0 0))
 
 (defparameter *minScorePath* (item-with-minimum-score *endPaths*))
-(fifth *minScorePath*)
-(calculate-score *minScorePath*)
+(defparameter *minScore* (calculate-score *minScorePath*))
+
+(format t "Min Score: ~a~%" *minScore*) ; Part 1
 
 ;;;;;;;;;;;;;
 
-(render-grid-with-start-end-and-direction *items* *start* *end* (convert-queue-to-hash-table (list *minScorePath*)) *width* *height*) 
+(defun flatten-linked-list (item)
+  "Flatten a linked list into a single list. Each node's third item points to the next node."
+  (if (null item)
+      nil
+      (append (list (first item)) (flatten-linked-list (third item)))))
+
+(defun append-flattened-lists (list-of-lists)
+  "Create an appended list of flattened items from a list of linked lists."
+  (reduce #'append (mapcar #'flatten-linked-list list-of-lists)))
+
+(defun points-to-hash-table (points)
+  "Convert a list of points to a hash table with points as keys and t as values."
+  (let ((hash-table (make-hash-table :test 'equal)))
+    (dolist (point points)
+      (setf (gethash point hash-table) t))
+    hash-table))
+
+(defparameter *bestPaths* (remove-if-not (lambda (path) (= (calculate-score path) *minScore*)) *endPaths*))
+(defparameter *appended-flattened-list* (append-flattened-lists *bestPaths*))
+(defparameter *unique* (remove-duplicates *appended-flattened-list* :test 'equal))
+
+(format t "Num: ~a~%" (length *unique*)) ; Part 2
+
+;;;;;;;;;;;;;
+
+(render-grid-with-start-end-and-direction *items* *start* *end* (convert-queue-to-hash-table (list *minScorePath*)) *width* *height* ">") ; Part 1
+(render-grid-with-start-end-and-direction *items* *start* *end* (points-to-hash-table *unique*) *width* *height* "O")  ; Part 2
