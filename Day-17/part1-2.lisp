@@ -67,10 +67,10 @@
     (defparameter *index* 0)
     (defparameter *output* "")))
 
-(defun run (start)
+(defun run (start log)
   (let ((regs (first start)) (program (second start)))
     (set-state regs)
-   ; (regs "Start" nil)
+    (if log (regs "Start" nil))
 
     (loop while (< *index* (length program))
         do (let* ((instr (nth *index* program))
@@ -85,12 +85,24 @@
             (incf *index*))
 
           (funcall op operand)
-          ;(regs opCode operand)
+          (if log (regs opCode operand))
         )))
 
-   ; (regs "End" nil)
-   ; (format t "Out: ~A~%" *output*)
-    )
+    (if log (regs "End" nil)))
+
+(run '((46337277 0 0) ((2 4) (1 1) (7 5) (4 4) (1 4) (0 3) (5 5) (3 0))) t) ; puzzle
+(format t "Part 1: ~a~%" *output*)
+
+;(run '((729 0 0) ((0 1) (5 4) (3 0)))) ; test
+;(run '((0 2024 43690) ((4 0))))
+
+;If register C contains 9, the program 2,6 would set register B to 1.
+;If register A contains 10, the program 5,0,5,1,5,4 would output 0,1,2.
+;If register A contains 2024, the program 0,1,5,4,3,0 would output 4,2,5,6,7,7,7,7,3,1,0 and leave 0 in register A.
+;If register B contains 29, the program 1,7 would set register B to 26.
+;If register B contains 2024 and register C contains 43690, the program 4,0 would set register B to 44354.
+
+;;;;;;;;;;;;;
 
 (defun flatten-list-of-pairs (list-of-pairs)
   "Flatten a list of pairs of integers into a single list of integers without changing the source array."
@@ -103,15 +115,15 @@
 
 (defun search-multiples (initRegA digitsToMatch)
   (progn
-    (format t "New loop: ~a~%" initRegA)
+    (format t "Reg A: ~a~%" initRegA)
     (let ((match (create-search-text digitsToMatch)))
         (loop for regA from initRegA below (+ initRegA 100)
         do
-            (run (list (list regA 0 0) *program*))
+            (run (list (list regA 0 0) *program*) nil)
             (if (string= match *output*)
                 (if (= (* (length *program*) 2) digitsToMatch)
                     (progn
-                        (format t "Finished: ~a A: ~A~%" *output* regA)
+                        (format t "Part 2: ~a Output: ~A~%" regA *output*)
                         (return t))
                     (return (search-multiples (* regA 8) (1+ digitsToMatch)))))))))
 
@@ -120,7 +132,4 @@
 (loop for aValue from 0 below 10000
   do
     (let ((output (search-multiples aValue 3)))
-      (if output
-          (progn
-              (format t "Initial Reg A: ~A~%" aValue)
-              (return)))))
+      (if output (return))))
