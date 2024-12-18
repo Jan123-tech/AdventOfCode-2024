@@ -90,7 +90,9 @@
 
     (if log (regs "End" nil)))
 
-(run '((46337277 0 0) ((2 4) (1 1) (7 5) (4 4) (1 4) (0 3) (5 5) (3 0))) t) ; puzzle
+(defparameter *program* '((2 4) (1 1) (7 5) (4 4) (1 4) (0 3) (5 5) (3 0)))
+
+(run (list (list 46337277 0 0) *program*) t) ; puzzle
 (format t "Part 1: ~a~%" *output*)
 
 ;(run '((729 0 0) ((0 1) (5 4) (3 0)))) ; test
@@ -127,9 +129,7 @@
                         (return t))
                     (return (search-multiples (* regA 8) (1+ digitsToMatch)))))))))
 
-(defparameter *program* '((2 4) (1 1) (7 5) (4 4) (1 4) (0 3) (5 5) (3 0)))
-
 (loop for aValue from 0 below 10000
   do
-    (let ((output (search-multiples aValue 3)))
-      (if output (return))))
+    (if (search-multiples aValue 3)
+      (return)))
