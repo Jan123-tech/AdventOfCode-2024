@@ -93,6 +93,7 @@
   "Perform an exclusive OR operation."
   (and (or a b) (not (and a b))))
 
+(dotimes (n 16)
 (ignore-errors (defparameter cgm (and ktr qkd)))
 (ignore-errors (defparameter smb (and y41 x41)))
 (ignore-errors (defparameter kmt (and gst gtv)))
@@ -315,6 +316,7 @@
 (ignore-errors (defparameter grd (and y29 x29)))
 (ignore-errors (defparameter pvc (xor y37 x37)))
 (ignore-errors (defparameter wjp (and hvf pfk)))
+)
 
 (defparameter *answer* (format nil "~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~a~%" (if z00 1 0) (if z01 1 0) (if z02 1 0) (if z03 1 0) (if z04 1 0) (if z05 1 0) (if z06 1 0) (if z07 1 0) (if z08 1 0) (if z09 1 0) (if z10 1 0) (if z11 1 0) (if z12 1 0) (if z13 1 0) (if z14 1 0) (if z15 1 0) (if z16 1 0) (if z17 1 0) (if z18 1 0) (if z19 1 0) (if z20 1 0) (if z21 1 0) (if z22 1 0) (if z23 1 0) (if z24 1 0) (if z25 1 0) (if z26 1 0) (if z27 1 0) (if z28 1 0) (if z29 1 0) (if z30 1 0) (if z31 1 0) (if z32 1 0) (if z33 1 0) (if z34 1 0) (if z35 1 0) (if z36 1 0) (if z37 1 0) (if z38 1 0) (if z39 1 0) (if z40 1 0) (if z41 1 0) (if z42 1 0) (if z43 1 0) (if z44 1 0) (if z45 1 0)))
 
