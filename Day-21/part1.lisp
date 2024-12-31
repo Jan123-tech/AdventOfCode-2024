@@ -132,6 +132,16 @@
 
 (setf (gethash (list "<" "A") *paths-controller*) (list ">" ">" "^"))
 (setf (gethash (list 3 7) *paths-keypad*) (list "<" "<" "^" "^"))
+(setf (gethash (list "A" 1) *paths-keypad*) (list "^" "<" "<"))
+(setf (gethash (list "A" 4) *paths-keypad*) (list "^" "^" "<" "<"))
+(setf (gethash (list "A" 7) *paths-keypad*) (list "^" "^" "^" "<" "<"))
+(setf (gethash (list 0 4) *paths-keypad*) (list "^" "^" "<"))
+(setf (gethash (list 0 7) *paths-keypad*) (list "^" "^" "^" "<"))
+(setf (gethash (list 1 "A") *paths-keypad*) (list ">" ">" "v"))
+(setf (gethash (list 4 "A") *paths-keypad*) (list ">" ">" "v" "v"))
+(setf (gethash (list 4 0) *paths-keypad*) (list ">" "v" "v"))
+(setf (gethash (list 7 "A") *paths-keypad*) (list ">" ">" "v" "v" "v"))
+(setf (gethash (list 7 0) *paths-keypad*) (list ">" "v" "v" "v"))
 
 (print-hash-table *paths-keypad*)
 (print-hash-table *paths-controller*)
